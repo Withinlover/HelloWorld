@@ -1,2 +1,7 @@
 # HelloWorld
-For test something new
+
+打算寒假学点东西，现在这里做个测试
+
+$$e^{i\pi}+1=0$$
+
+欸嘿，这里放不了公式（x
