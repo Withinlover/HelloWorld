@@ -1,0 +1,11 @@
+pyinstaller -F -w 
+--add-binary "source/*.py;./source" 
+--add-data "source/images/*.png;./source/images" 
+--add-data "source/images/*.jpg;./source/images" 
+--add-binary "source/components/*.py;./source/components" 
+--add-binary "source/states/*.py;./source/states" 
+main.py
+
+pyinstaller -F -w --add-binary "source/*.py;./source" --add-binary "source/components/*.py;./source/components" --add-binary "source/states/*.py;./source/states" --add-data "source/images/*.png;./source/images" main.py
+
+pyinstaller -F -w -i icon.ico --add-data "source;source" main.py
